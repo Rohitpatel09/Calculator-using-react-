@@ -1,0 +1,18 @@
+.display {
+    width: 100%;
+    height: 80px;
+    font-size: 2.2rem;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(50, 50, 50, 0.8));
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.5), inset -5px -5px 15px rgba(255, 255, 255, 0.2);
+    color: #0efefe;
+    text-shadow: 0 0 10px #0efefe, 0 0 20px #0efefe, 0 0 30px #0efefe;
+    user-select: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

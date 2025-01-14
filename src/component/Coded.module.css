@@ -1,0 +1,21 @@
+.attribution {
+    font-size: 25px;
+    text-align: center;
+    color:  #333;
+}
+.attribution div {
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.attribution span{
+    color:  #ff5733;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.attribution span:hover {
+    color: #fff;
+    background-color:  #ccc;
+    padding: .5em;
+    border-radius: 10px;
+}

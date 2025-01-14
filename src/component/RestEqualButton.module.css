@@ -1,0 +1,41 @@
+.resetequalbutton {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e9ecef; 
+  }
+  
+  .resetequalbutton button {
+    flex: 1;
+    font-size: 1.5rem;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    color: #333333; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+    
+  }
+  
+  .resetequalbutton button:hover {
+    background-color: #ee6464; 
+    color: white;
+  }
+  
+  .resetequalbutton button:active {
+    background-color: #030202; 
+    transform: scale(0.95); 
+  }
+  
+  .resetequalbutton button:last-child {
+    background-color: #f0a500;
+    color: white; 
+  }
+  
+  .resetequalbutton button:last-child:hover {
+    background-color: #e69500; 
+  }
+  
